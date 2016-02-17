@@ -36,3 +36,7 @@
 ## ¿Quieres ver el <a target="_blank" href="http://rawgit.com/linzero/simplest-popup/master/index.html">DEMO</a>?
 ## And that's it! (Y eso es todo)
 
+##Autores y contribuidores
+@linzero
+</br>
+@amateradzu2008
