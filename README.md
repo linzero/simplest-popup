@@ -1,6 +1,12 @@
 ## This is the most simple popup ever (Este es el popup más sencillo)
 ### How to use it? (¿Cómo se usa?)
-#### 1.Show Popup (Mostrar popup)
+#### 1. Requires (Requiere)
+```HTML
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+```
+#### 2. Show Popup (Mostrar popup)
 * Script
 ```javascript
   lanzarPopup('#popup_ejemplo');
@@ -17,7 +23,7 @@
 	<button onclick="cerrarPopup('#popup_ejemplo')">Cerrar popup</button>
 </div>
 ```
-#### 2. Cerrar Popup
+#### 3. Close Popup (Cerrar Popup)
 * Script
 ```javascript
   cerrarPopup('#popup_ejemplo');
