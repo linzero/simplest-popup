@@ -1,11 +1,11 @@
 ## This is the most simple popup ever (Este es el popup más sencillo)
 ### How to use it? (¿Cómo se usa?)
 #### 1.Show Popup (Mostrar popup)
-*Script
+* Script
 ```javascript
   lanzarPopup('#popup_ejemplo');
 ```
-*HTML
+* HTML
 ```html
 <div class="popup" id="popup_ejemplo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -18,11 +18,11 @@
 </div>
 ```
 #### 2. Cerrar Popup
-*Script
+* Script
 ```javascript
   cerrarPopup('#popup_ejemplo');
 ```
-*HTML
+* HTML
 ```HTML
 <button onclick="cerrarPopup('#popup_ejemplo')">Cerrar popup</button>
 ```
