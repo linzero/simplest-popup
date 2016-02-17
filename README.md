@@ -1,5 +1,6 @@
-## This is the simplest popup ever (Este es el popup más sencillo)
-### How to use it? (¿Cómo se usa?)
+## This is the simplest popup with JQUERY ever (Este es el popup más sencillo con JQUERY)
+### How to use it? (¿Cómo se usa?) <a tarjet="_balnk" href="http://linzero.github.io/simplest-popup/">Docs>/a>
+
 #### 1. Requires (Requiere)
 ```HTML
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
