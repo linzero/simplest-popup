@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Simplest-popup by linzero</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Simplest-popup</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/linzero/simplest-popup">View the Project on GitHub <small>linzero/simplest-popup</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/linzero/simplest-popup/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/linzero/simplest-popup/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/linzero/simplest-popup">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="this-is-the-simplest-popup-ever-este-es-el-popup-más-sencillo" class="anchor" href="#this-is-the-simplest-popup-ever-este-es-el-popup-m%C3%A1s-sencillo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This is the simplest popup ever (Este es el popup más sencillo)</h2>
+
+<h3>
+<a id="how-to-use-it-cómo-se-usa" class="anchor" href="#how-to-use-it-c%C3%B3mo-se-usa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use it? (¿Cómo se usa?)</h3>
+
+<h4>
+<a id="1-requires-requiere" class="anchor" href="#1-requires-requiere" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Requires (Requiere)</h4>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>js/popup.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/css<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>css/popup.css<span class="pl-pds">"</span></span>&gt;</pre></div>
+
+<h4>
+<a id="2-show-popup-mostrar-popup" class="anchor" href="#2-show-popup-mostrar-popup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Show Popup (Mostrar popup)</h4>
+
+<ul>
+<li>Script</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre>  <span class="pl-en">lanzarPopup</span>(<span class="pl-s"><span class="pl-pds">'</span>#popup_ejemplo<span class="pl-pds">'</span></span>);</pre></div>
+
+<ul>
+<li>HTML</li>
+</ul>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>popup<span class="pl-pds">"</span></span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>popup_ejemplo<span class="pl-pds">"</span></span>&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    &lt;<span class="pl-ent">button</span> <span class="pl-e">onclick</span>=<span class="pl-s"><span class="pl-pds">"</span>cerrarPopup('#popup_ejemplo')<span class="pl-pds">"</span></span>&gt;Cerrar popup&lt;/<span class="pl-ent">button</span>&gt;
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h4>
+<a id="3-close-popup-cerrar-popup" class="anchor" href="#3-close-popup-cerrar-popup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Close Popup (Cerrar Popup)</h4>
+
+<ul>
+<li>Script</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre>  <span class="pl-en">cerrarPopup</span>(<span class="pl-s"><span class="pl-pds">'</span>#popup_ejemplo<span class="pl-pds">'</span></span>);</pre></div>
+
+<ul>
+<li>HTML</li>
+</ul>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span> <span class="pl-e">onclick</span>=<span class="pl-s"><span class="pl-pds">"</span>cerrarPopup('#popup_ejemplo')<span class="pl-pds">"</span></span>&gt;Cerrar popup&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+
+<h2>
+<a id="and-thats-it-y-eso-es-todo" class="anchor" href="#and-thats-it-y-eso-es-todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>And that's it! (Y eso es todo)</h2>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p><a href="https://github.com/Linzero" class="user-mention">@Linzero</a>
+<a href="https://github.com/amateradzu2008" class="user-mention">@amateradzu2008</a></p>
+
+<h3>
+<a id="contacto" class="anchor" href="#contacto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contacto</h3>
+
+<p><a href="mailto:davidmauriciopb@gmail.com">davidmauriciopb@gmail.com</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/linzero">linzero</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
