@@ -6,6 +6,7 @@
   lanzarPopup('#popup_ejemplo');
 ```
 *HTML
+```html
 <div class="popup" id="popup_ejemplo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -15,14 +16,15 @@
 
 	<button onclick="cerrarPopup('#popup_ejemplo')">Cerrar popup</button>
 </div>
-
+```
 #### 2. Cerrar Popup
 *Script
 ```javascript
   cerrarPopup('#popup_ejemplo');
 ```
-*HTML 
+*HTML
+```HTML
 <button onclick="cerrarPopup('#popup_ejemplo')">Cerrar popup</button>
-
+```
 ## And that's it! (Y eso es todo)
 
