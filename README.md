@@ -1,4 +1,4 @@
-## This is the most simple popup ever (Este es el popup más sencillo)
+## This is the simplest popup ever (Este es el popup más sencillo)
 ### How to use it? (¿Cómo se usa?)
 #### 1. Requires (Requiere)
 ```HTML
